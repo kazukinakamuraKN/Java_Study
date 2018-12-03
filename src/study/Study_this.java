@@ -10,5 +10,8 @@ public class Study_this {
 			return false;
 		}
 	}
+	//mainメソッドしかインスタンス生成できないのかと思ったけどそんなことはなかった。
+	MainInstance ins = new MainInstance();
+
 
 }
