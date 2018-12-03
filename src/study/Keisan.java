@@ -4,6 +4,10 @@ public class Keisan {
 	public static void main(String[]args) {
 		Logic a = new Logic();
 		a.tasizan(12, 32);
+		Study_this s = new Study_this();
+		System.out.println(s.hikaku(s));
+		Study_this s2 = new Study_this();
+		System.out.println(s.hikaku(s2));
 	}
 }
 
